@@ -65,7 +65,7 @@ public:
 
 		const T& operator*() const
 		{
-			if (current != nullptr) return current->value
+			if (current != nullptr) return current->value;
 			throw logic_error("is nullptr");
 		}
 
